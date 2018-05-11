@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/c++,visualstudio
+# Created by https://www.gitignore.io/api/c++,database,visualstudio,visualstudiocode
 
 ### C++ ###
 # Prerequisites
@@ -34,6 +34,23 @@
 *.exe
 *.out
 *.app
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sql
+*.sqlite3
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -91,7 +108,6 @@ artifacts/
 *_i.h
 *.ilk
 *.meta
-*.pdb
 *.pgc
 *.pgd
 *.rsp
@@ -330,4 +346,4 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 
-# End of https://www.gitignore.io/api/c++,visualstudio
+# End of https://www.gitignore.io/api/c++,database,visualstudio,visualstudiocode
