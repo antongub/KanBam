@@ -1,14 +1,15 @@
 # KanBam
-Kanban-Board in windows command prompt
+This application was a school Project and defines a Kanban-Board which is printed in the windows command prompt.
 
 
 ## Rules
-This project has the following predefined Rules
-(Important to admit => not defined by me):
+Because it was a school Project, our teacher defined some Rules:
 
 * Application must be an c++ project
-* need to be a cmd Application
-* OOP is not allowed
+* needs to be a cmd Application
+* OOP is not allowed  
+  (which was because of the database connection not completely possible)
+* Programm and Code needs to be in German
 
 ## Database connection
 To include the sqlite header File I used the following Tutorial to install sqlite:
